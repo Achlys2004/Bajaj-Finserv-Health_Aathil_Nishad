@@ -2,11 +2,7 @@
 HELP.md
 LICENSE
 
-# Build artifacts
-target/
-!target/*.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+
 
 # Test files
 src/test/
