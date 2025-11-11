@@ -1,0 +1,49 @@
+# Documentation
+HELP.md
+LICENSE
+
+# Build artifacts
+target/
+!target/*.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Test files
+src/test/
+
+# IDE and Editor files
+.vscode/
+.vscode/settings.json
+.idea
+*.iws
+*.iml
+*.ipr
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven
+.mvn/
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Specific files
+.gitattributes
+.mvn/README.md
